@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Page</title>
+
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            margin:0;
+        }
+
+        .row{
+            padding: 50px;
+        }
+
+        .header{
+            background-color: palegoldenrod;
+            border: 5px solid wheat;
+            padding: 0;
+            margin: 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        body{
+            background: url(img/bg.jpg) no-repeat;
+            background-size: cover;
+        }
+
+        .col1{
+            width: 25%;
+            padding: 10px 10px 20px 10px;
+            border:2px solid burlywood;
+            background-color: lightgoldenrodyellow;
+            box-shadow: 10px 10px 5px gainsboro;
+            float: left;
+            -ms-transform: rotate(7deg);
+            -webkit-transform: rotate(7deg);
+            transform: rotate(7deg);
+        }
+
+        .col2{
+            width: 25%;
+            padding: 10px 10px 20px 10px;
+            border:2px solid burlywood;
+            background-color: lightgoldenrodyellow;
+            box-shadow: 10px 10px 5px gainsboro;
+            float: left;
+            -ms-transform: rotate(7deg);
+            -webkit-transform: rotate(7deg);
+            transform: rotate(7deg);
+        }
+
+        .col2 span{
+            font-weight: bold;
+            font-size: 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .col2:hover{
+            transform: rotate(0deg);
+        }
+
+        .row:after {
+            content: " ";
+            display: table;
+            clear: both;
+        }
+
+        @media screen and (max-width:600px){
+            .col1{
+                width:100%;
+            }
+            .col2{
+                width:100%;
+            }
+        }
+
+        .col1 span{
+            font-weight: bold;
+            font-size: 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .col1:hover{
+            transform: rotate(0deg);
+        }
+    </style>
+</head>
+<body>
+    
+    <center>
+    <div class="header">
+        <h1>ONE PIECE FAMILY CHARACTERS</h1>
+    </div>
+    </center>
+
+    <div class="row">
+
+            <div class="col1">
+                <img src="img/images.jpg" width="100%">
+                <span>NAMI</span>
+                <p class="desc1"> Nami is a fictional character in the One Piece franchise created by Eiichiro Oda. She is based on Ann and Silk, two characters from Oda's previous manga Romance Dawn. She is introduced as a thief and pickpocket who possesses cartographical, meteorological, and navigational skills.Nami is a fictional character in the One Piece franchise created by Eiichiro Oda. She is based on Ann and Silk, two characters from Oda's previous manga Romance Dawn. 
+                    She is introduced as a thief and pickpocket who possesses cartographical, meteorological, and navigational skills.</p>
+            </div>
+
+                <div class="col2">
+                    <img src="img/charlotte.jpg" width="100%">
+                    <span>CHARLOTTE</span>
+                    <p class="desc1">Charlotte Linlin, better known as Big Mom, is the captain of the Big Mom Pirates and was formerly one of the Four Emperors ruling over the New World, as the only female member of that group. 
+                        She is also the matriarch of the very large Charlotte Family, whose many children make up the infrastructure of her crew.</p>
+                </div>
+
+                <div class="col1">
+                    <img src="img/JEWERLY.jpg" width="100%">
+                    <span> JEWERLY BONNEY</span>
+                    <p class="desc1"> Jewelry Bonney, also known as the "Big Eater" is a pirate and the captain of the Bonney Pirates. She and her crew originated from South Blue. 
+                        She is one of twelve pirates who are referred to as the Worst Generation, and prior to the two-year timeskip had a bounty of 140,000,000</p>
+                </div>
+    
+                    <div class="col2">
+                        <img src="img/K.jpg" width="100%">
+                        <span>VINSMOKE REIJU</span>
+                        <p class="desc1"> Vinsmoke Reiju, also known as "Poison Pink", is the eldest child and only daughter of the Vinsmoke Family. 
+                            She is a princess of the Germa Kingdom and a commander in its military arm, Germa 66.</p>
+                    </div>
+    
+
+    </div>
+
+</body>
+</html>
